@@ -12,6 +12,7 @@ public class App {
         System.out.println(summator.countSum(testingIntegerList));
 
         System.out.println(FibonacciSeries.countFibonacciIteratively(133));
+        System.out.println(FibonacciSeries.countFibonacciRecursively(133));
     }
 }
 
