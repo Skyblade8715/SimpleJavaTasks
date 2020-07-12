@@ -3,6 +3,7 @@ import java.util.List;
 
 public class FibonacciSeries {
 
+    //Task - count Fibonacci's series up to given number
     public static List<Integer> countFibonacciIteratively(int maxValue){
         List<Integer> series = new ArrayList<>();
         int f1 = 0,
@@ -19,7 +20,7 @@ public class FibonacciSeries {
         return series;
     }
 
-    //Second method for counting the series - just for funsies
+    //Second method for counting the series - just for funsies - note that it's a waaay slower version
     public static List<Integer> countFibonacciRecursively(int maxValue){
         List<Integer> series = new ArrayList<>();
         int n = 1,

@@ -13,6 +13,8 @@ public class App {
 
         System.out.println(FibonacciSeries.countFibonacciIteratively(133));
         System.out.println(FibonacciSeries.countFibonacciRecursively(133));
+        System.out.println(FindPrimeNumber.checkIfPrime(49));
+        System.out.println(FindPrimeNumber.checkIfPrime(7919));
     }
 }
 
