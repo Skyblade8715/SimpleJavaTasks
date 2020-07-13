@@ -1,4 +1,4 @@
-public class FindPrimeNumber {
+public class FindIfPrime {
 
     //Task - check if given number is Prime
     public static String checkIfPrime(int number){

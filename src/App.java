@@ -13,8 +13,11 @@ public class App {
 
         System.out.println(FibonacciSeries.countFibonacciIteratively(133));
         System.out.println(FibonacciSeries.countFibonacciRecursively(133));
-        System.out.println(FindPrimeNumber.checkIfPrime(49));
-        System.out.println(FindPrimeNumber.checkIfPrime(7919));
+        System.out.println(FindIfPrime.checkIfPrime(49));
+        System.out.println(FindIfPrime.checkIfPrime(7919));
+        System.out.println(CommaSeparated.getString(new ArrayList<>(Arrays.asList(4, 6, 43, 21))));
+        System.out.println(ArmstrongNumber.isArmstrongNumber(153));
+        System.out.println(ArmstrongNumber.isArmstrongNumber(152));
     }
 }
 
