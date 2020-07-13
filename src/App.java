@@ -18,6 +18,7 @@ public class App {
         System.out.println(CommaSeparated.getString(new ArrayList<>(Arrays.asList(4, 6, 43, 21))));
         System.out.println(ArmstrongNumber.isArmstrongNumber(153));
         System.out.println(ArmstrongNumber.isArmstrongNumber(152));
+        System.out.println(FilterStrings.search(new ArrayList<>(Arrays.asList("aaa", "ab", "", "vda", "vdaw", "Ana", "ale"))));
     }
 }
 
